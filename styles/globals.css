@@ -49,3 +49,17 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 1px; /* Largeur */
+}
+
+/* Cacher les flèches de défilement horizontales */
+.scrollbar-thin::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Cacher les coins de la barre de défilement */
+.scrollbar-thin::-webkit-scrollbar-corner {
+  display: none;
+}
